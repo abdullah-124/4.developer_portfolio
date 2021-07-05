@@ -1,5 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
@@ -19,6 +21,7 @@ h1 {
 .halfWidth {
     width: 50%;
     padding-left: 2%;
+    margin-right: 10px;
 }
 
 .halfWidth img {
@@ -33,4 +36,16 @@ h1 {
     color: #ffffff;
     font-weight: 700;
     border-radius: 5px;
+}
+
+
+/* dreamPart */
+
+.dreamPart {
+    margin-top: 150px;
+    display: flex;
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    ;
 }
