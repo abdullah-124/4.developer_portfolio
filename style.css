@@ -10,6 +10,8 @@ h1 {
 
 .h-color {
     color: #FF458F;
+    font-weight: bold;
+    font-family: 'Hachi Maru Pop', cursive;
 }
 
 .header {
@@ -47,5 +49,48 @@ h1 {
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
-    ;
+}
+
+.row {
+    display: flex;
+}
+
+.experience {
+    margin-top: 100px;
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.box {
+    box-shadow: 10px 10px 40px grey;
+    margin: 10px 5%;
+    padding-left: 50px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.box h1 {
+    font-size: 30px;
+}
+
+.box h3 {
+    font-size: 16px;
+}
+
+#box1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, #ff00c8);
+    border-image-slice: 1;
+}
+
+#box2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
 }
